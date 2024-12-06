@@ -1,0 +1,38 @@
+body{
+    background-color: rgba(0, 0, 0, 0.641); 
+    color: aliceblue;
+ }
+ .center{
+     display: flex;
+ height: 100vh;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ }
+
+ #clock {
+ font-size: 40px;
+ font-weight: bolder;
+ background-color: orange;
+ padding: 20px 50px;
+ margin-top: 10px;
+ border-radius: 10px;
+}
+
+#button{
+ display: flex;
+ padding: 20px 50px;
+ margin-top: 18px;
+ font-size: 25px;
+ font-weight: 900;
+ color: rgb(255, 251, 253);
+ 
+}
+.butt{
+ background-color: var(--clr);
+   padding: 15px 50px;
+   width: fit-content;
+   border-radius: 10px;
+   margin-inline: 20px;
+   cursor: pointer;
+}
